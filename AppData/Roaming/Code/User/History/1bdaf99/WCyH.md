@@ -1,0 +1,95 @@
+## Asynchronous programming
+
+- Theory
+  - Event loop: 🎓 known
+  - try..catch: 🎓 known
+  - Non-blocking
+  - Async I/O
+  - Thread pool
+  - Pattern Reactor
+  - CAS operations
+  - epoll
+  - kqueue
+  - Completion ports
+  - Event ports
+  - libuv
+  - Race conditions
+  - Dead locks
+  - Live locks
+  - Concurrent programming
+  - Parallel programming:👂 heard
+  - Actor Model
+  - Thread:👂 heard
+  - Process
+- Async contracts
+  - Callbacks: 🖐️ used
+  - Callback-last-error-first
+  - Thenable
+  - Promise: 🖐️ used
+  - Async/await: 🖐️ used
+  - Future
+  - Deferred
+  - Sync generator: 🎓 known
+  - Async Generator:👂 heard
+  - Async Iterator:👂 heard
+  - Event
+  - Coroutine
+  - Goroutine
+  - Signal
+  - Stream
+  - Chain of responsibility
+  - Middleware
+  - Locks
+- Async adapters and utils
+  - callbackify
+  - promisify
+  - asyncify
+  - callbacks compose
+  - async compose
+- Async abstractions interfaces
+  - EventEmitter
+  - Observable/Observer
+  - Readable
+  - Writable
+  - Transform
+  - Async Pool
+  - Async Queue: 🎓 known
+  - Async Collector
+  - Semaphore: 🖐️ used
+  - Mutex: 🖐️ used
+  - Spin Lock
+- JavaScript & Node.js specific
+  - Timers
+  - setImmediate
+  - nextTick
+  - AbortController
+  - AbortSignal
+  - Promise unhandled rejection
+  - Promise double resolve
+  - child_process
+  - worker_threads
+  - Atomics
+  - High resolution clock
+  - Callback hell
+  - Promise hell
+  - ref() and unref()
+  - Error handling in async code
+  - Better stack traces with return await
+  - JSON: streaming serialization
+  - promisify
+  - callbackify
+  - AsyncLocalStorage
+  - AsyncResource
+- Techniques
+  - async.js library
+  - RxJS library
+  - Async composition
+  - Promise.all
+  - Promise.allSettled
+  - Promise.race
+  - Promise.any
+  - Web Locks API
+  - IPC
+  - Channel API
+  - Revealing Constructor
+  - Web Locks API

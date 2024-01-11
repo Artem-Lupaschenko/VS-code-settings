@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="_/LR2"/>
+	<classpathentry kind="src" path="_/LR1"/>
+	<classpathentry excluding="LR2/|LR1/" kind="src" path="_"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

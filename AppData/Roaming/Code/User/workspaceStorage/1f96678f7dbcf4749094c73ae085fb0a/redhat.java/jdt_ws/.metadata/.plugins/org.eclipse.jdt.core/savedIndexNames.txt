@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\artem\AppData\Roaming\Code\User\workspaceStorage\1f96678f7dbcf4749094c73ae085fb0a\redhat.java\jdt_ws\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2238567309.index
+3713850867.index
+1841467934.index

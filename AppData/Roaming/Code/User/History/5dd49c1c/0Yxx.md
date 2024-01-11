@@ -1,0 +1,106 @@
+## Programming fundamental concepts
+
+- Syntax and concepts
+  - value: 🎓 known
+  - identifier
+  - variable: 🎓 known
+  - constant: 🎓 known
+  - scalar: 🎓 known
+  - literal
+  - expression
+  - heap
+  - function: 🎓 known
+  - procedure
+  - method
+  - class: 🎓 known
+  - prototype: 🎓 known
+  - event
+  - type: 🎓 known
+  - primitive types
+  - reference types
+  - flag
+  - lexical scope
+  - code block
+  - conditions
+  - loops
+  - assignment
+  - regular expression
+  - interface
+  - contract
+  - module
+  - call stack: 🎓 known
+- Functions
+  - signature: 👂 heard
+  - argument: 👂 heard
+  - parameter: 👂 heard
+  - pure function
+  - lambda expression
+  - side effects
+  - closure
+  - partial application
+  - curry
+  - higher order
+  - recursion: 👂 heard
+  - callback: 👂 heard
+  - listener: 👂 heard
+  - compose
+  - pipe
+  - memoize
+  - wrapper
+  - functor
+  - monad
+  - monoid
+  - generator: 👂 heard
+  - coroutine
+- Data structures
+  - array: 👂 heard
+  - structure: 👂 heard
+  - record
+  - enum
+  - instance: 👂 heard
+  - object: 👂 heard
+  - class: 👂 heard
+  - collection
+  - set
+  - hash table
+  - linked list
+  - doubly list
+  - unrolled list
+  - circular list
+  - queue
+  - stack
+  - deque
+  - tree
+  - graph
+  - iterator
+  - mutable state
+  - immutable state
+  - serialization
+  - string parsing: 👂 heard
+- Process & style
+  - compiler: 👂 heard
+  - transpiler
+  - linter
+  - polyfill: 👂 heard
+  - debugger: 👂 heard
+  - garbage collection: 👂 heard
+  - refactoring: 👂 heard
+  - code review: 👂 heard
+  - antipatterns
+  - paradigm: 👂 heard
+  - algorithm
+  - magic numbers
+  - hardcode
+  - complexity
+  - decomposition
+  - spaghetti
+  - silver bullet
+  - not invented here
+  - dead code
+  - unreachable code
+  - duplicate code
+  - exception
+  - return early
+  - unittest
+  - git: 👂 heard
+  - github: 👂 heard

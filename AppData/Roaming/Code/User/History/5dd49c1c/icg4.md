@@ -1,0 +1,106 @@
+## Programming fundamental concepts
+
+- Syntax and concepts
+  - value: 👂 heard
+  - identifier
+  - variable: 👂 heard
+  - constant: 👂 heard
+  - scalar: 👂 heard
+  - literal
+  - expression
+  - heap
+  - function: 👂 heard
+  - procedure
+  - method
+  - class: 👂 heard
+  - prototype: 👂 heard
+  - event
+  - type: 👂 heard
+  - primitive types
+  - reference types
+  - flag
+  - lexical scope
+  - code block
+  - conditions
+  - loops
+  - assignment
+  - regular expression
+  - interface
+  - contract
+  - module
+  - call stack: 👂 heard
+- Functions
+  - signature: 👂 heard
+  - argument: 👂 heard
+  - parameter: 👂 heard
+  - pure function
+  - lambda expression
+  - side effects
+  - closure
+  - partial application
+  - curry
+  - higher order
+  - recursion: 👂 heard
+  - callback: 👂 heard
+  - listener: 👂 heard
+  - compose
+  - pipe
+  - memoize
+  - wrapper
+  - functor
+  - monad
+  - monoid
+  - generator: 👂 heard
+  - coroutine
+- Data structures
+  - array: 👂 heard
+  - structure: 👂 heard
+  - record
+  - enum
+  - instance: 👂 heard
+  - object: 👂 heard
+  - class: 👂 heard
+  - collection
+  - set
+  - hash table
+  - linked list
+  - doubly list
+  - unrolled list
+  - circular list
+  - queue
+  - stack
+  - deque
+  - tree
+  - graph
+  - iterator
+  - mutable state
+  - immutable state
+  - serialization
+  - string parsing: 👂 heard
+- Process & style
+  - compiler
+  - transpiler
+  - linter
+  - polyfill: 👂 heard
+  - debugger
+  - garbage collection
+  - refactoring
+  - code review
+  - antipatterns
+  - paradigm
+  - algorithm
+  - magic numbers
+  - hardcode
+  - complexity
+  - decomposition
+  - spaghetti
+  - silver bullet
+  - not invented here
+  - dead code
+  - unreachable code
+  - duplicate code
+  - exception
+  - return early
+  - unittest
+  - git
+  - github

@@ -1,0 +1,810 @@
+!SESSION 2023-12-06 16:34:14.025 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  --stdio
+Command-line arguments:  -data c:\Users\artem\AppData\Roaming\Code\User\workspaceStorage\52ac673540df1434c965d809b570d639\redhat.java\jdt_ws --stdio
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:22.608
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:22.937
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:22.988
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:22.991
+!MESSAGE Initializing Java Language Server 1.30.0.202311300244
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:22.991
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:23.756
+!MESSAGE ProjectRegistryRefreshJob finished 764ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:23.790
+!MESSAGE Started org.eclipse.buildship.core 33ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:23.868
+!MESSAGE Setting C:\Program Files\RedHat\java-17-openjdk-17.0.8.1.1-2 as 'JavaSE-17' environment (id:1701873263854)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:23.872
+!MESSAGE Setting java.home C:\Program Files\RedHat\java-17-openjdk-17.0.8.1.1-2 as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:23.878
+!MESSAGE Default VM Install changed from  1701873263840-C:\Users\artem\.vscode\extensions\redhat.java-1.25.0-win32-x64\jre\17.0.9-win32-x86_64 to 1701873263854-C:\Program Files\RedHat\java-17-openjdk-17.0.8.1.1-2
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:23.885
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:23.990
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30/dist/com.microsoft.jdtls.intellicode.core-0.7.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.008
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-debug-0.55.0/server/com.microsoft.java.debug.plugin-0.50.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.022
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-dependency-0.23.3/server/com.microsoft.jdtls.ext.core-0.23.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.039
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.056
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.177
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.189
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.198
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.207
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.218
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.277
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.404
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.453
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.528
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.539
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.573
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.670
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.744
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.780
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.788
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/com.microsoft.java.test.plugin-0.40.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.798
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-maven-0.43.0/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.803
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.824
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-debug-0.55.0/server/com.microsoft.java.debug.plugin-0.50.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.836
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.838
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.857
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/com.microsoft.java.test.plugin-0.40.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.858
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.859
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.861
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.862
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.863
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.865
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.866
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.867
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.867
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.881
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-dependency-0.23.3/server/com.microsoft.jdtls.ext.core-0.23.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.895
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-maven-0.43.0/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.896
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.897
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.907
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30/dist/com.microsoft.jdtls.intellicode.core-0.7.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.908
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.909
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.915
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.916
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.916
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.916
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.917
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.920
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.920
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.921
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.921
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.922
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.922
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.923
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.936
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.948
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:24.954
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:25.089
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:25.529
+!MESSAGE Workspace initialized in 592ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:25.603
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:25.611
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:25.615
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:27.084
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:27.969
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:27.973
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:27.975
+!MESSAGE Validated 1. Took 283 ms
+
+!ENTRY java-debug 1 0 2023-12-06 16:34:28.016
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:34:28.102
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:35:41.580
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:35:42.116
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:35:42.116
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:35:42.117
+!MESSAGE Validated 1. Took 108 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:59:14.119
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:59:14.613
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:59:14.614
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 16:59:14.614
+!MESSAGE Validated 1. Took 87 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 17:38:09.567
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 17:38:10.082
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 17:38:10.082
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 17:38:10.083
+!MESSAGE Validated 1. Took 110 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 17:41:00.280
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 17:41:00.795
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 17:41:00.796
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 17:41:00.797
+!MESSAGE Validated 1. Took 100 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 19:15:25.451
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 19:15:25.956
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 19:15:25.956
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 19:15:25.957
+!MESSAGE Validated 1. Took 91 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:02:22.433
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:02:22.933
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:02:22.934
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:02:22.934
+!MESSAGE Validated 1. Took 89 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:47:39.992
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:47:40.465
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:47:40.467
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:47:40.468
+!MESSAGE Validated 1. Took 67 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:56:52.860
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:56:53.310
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:56:53.311
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:56:53.311
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:57:06.354
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:57:06.787
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:57:06.787
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:57:06.790
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:57:19.180
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:57:19.620
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:57:19.621
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 20:57:19.622
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 21:30:35.340
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 21:30:35.816
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 21:30:35.817
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-06 21:30:35.817
+!MESSAGE Validated 1. Took 74 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 00:49:35.066
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 00:49:35.090
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 00:49:35.294
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 00:49:35.312
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-12-07 16:42:42.250 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  --stdio
+Command-line arguments:  -data c:\Users\artem\AppData\Roaming\Code\User\workspaceStorage\52ac673540df1434c965d809b570d639\redhat.java\jdt_ws --stdio
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:50.405
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:50.683
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:50.716
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:50.718
+!MESSAGE Initializing Java Language Server 1.30.0.202311300244
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:50.718
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.586
+!MESSAGE ProjectRegistryRefreshJob finished 867ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.610
+!MESSAGE Started org.eclipse.buildship.core 24ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.663
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.664
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.665
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.665
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.666
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.667
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.668
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.668
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.669
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.670
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.671
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.671
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.695
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:51.707
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:52.237
+!MESSAGE Workspace initialized in 542ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:52.262
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:52.268
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:52.271
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:53.328
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:53.568
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:54.078
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:54.081
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 16:42:54.086
+!MESSAGE Validated 1. Took 154 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 18:25:16.069
+!MESSAGE >> java/validateDocument
+
+!ENTRY java-debug 1 0 2023-12-07 18:25:16.484
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 18:25:16.579
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 18:25:16.580
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 18:25:16.581
+!MESSAGE Validated 1. Took 106 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 20:00:48.041
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 20:00:48.523
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 20:00:48.523
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 20:00:48.524
+!MESSAGE Validated 1. Took 75 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 20:20:55.265
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 20:20:55.716
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 20:20:55.717
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 20:20:55.718
+!MESSAGE Validated 1. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 20:24:29.613
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 20:24:30.070
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 20:24:30.070
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 20:24:30.071
+!MESSAGE Validated 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 21:26:03.836
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 21:26:04.286
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 21:26:04.286
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 21:26:04.287
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 23:40:42.201
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 23:40:42.245
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 23:40:42.422
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-07 23:40:42.463
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-12-14 14:57:43.828 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  --stdio
+Command-line arguments:  -data c:\Users\artem\AppData\Roaming\Code\User\workspaceStorage\52ac673540df1434c965d809b570d639\redhat.java\jdt_ws --stdio
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:56.091
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:56.511
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:56.593
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:56.596
+!MESSAGE Initializing Java Language Server 1.30.1.202312070241
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:56.598
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:57.927
+!MESSAGE ProjectRegistryRefreshJob finished 1329ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:57.983
+!MESSAGE Started org.eclipse.buildship.core 54ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:58.266
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30/dist/com.microsoft.jdtls.intellicode.core-0.7.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:58.291
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-debug-0.55.0/server/com.microsoft.java.debug.plugin-0.50.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:58.318
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-dependency-0.23.3/server/com.microsoft.jdtls.ext.core-0.23.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:58.342
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:58.367
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:58.619
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:58.646
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:58.663
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:58.680
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:58.697
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:58.815
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.047
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.169
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.329
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.346
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.407
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.596
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.735
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.806
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.823
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/com.microsoft.java.test.plugin-0.40.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.841
+!MESSAGE Installed reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-maven-0.43.0/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.848
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.859
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.880
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.882
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.883
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.886
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.888
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.889
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.912
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-maven-0.43.0/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.913
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.942
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-debug-0.55.0/server/com.microsoft.java.debug.plugin-0.50.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.943
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.944
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.945
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.947
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.948
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.975
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/com.microsoft.java.test.plugin-0.40.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.976
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.990
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30/dist/com.microsoft.jdtls.intellicode.core-0.7.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:57:59.991
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-test-0.40.1/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.013
+!MESSAGE Started reference:file:/c:/Users/artem/.vscode/extensions/vscjava.vscode-java-dependency-0.23.3/server/com.microsoft.jdtls.ext.core-0.23.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.024
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.025
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.026
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.026
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.027
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.027
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.028
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.029
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.030
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.030
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.031
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.031
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.068
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.075
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.776
+!MESSAGE Workspace initialized in 709ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.819
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.829
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:00.832
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:02.466
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:02.878
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:03.333
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:03.337
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 14:58:03.340
+!MESSAGE Validated 1. Took 256 ms
+
+!ENTRY java-debug 1 0 2023-12-14 14:58:05.192
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:08:10.293
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:08:10.853
+!MESSAGE begin problem for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:08:10.853
+!MESSAGE 1 problems reported for /Lab4.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:08:10.860
+!MESSAGE Validated 1. Took 158 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:08:11.162
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:08:11.177
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:08:11.260
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:08:11.269
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

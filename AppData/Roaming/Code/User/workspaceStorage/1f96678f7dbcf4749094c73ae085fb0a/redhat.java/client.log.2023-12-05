@@ -1,0 +1,42 @@
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2023-12-05 21:44:25.450'
+}
+{
+  message: 'Starting Java server with: c:\\Users\\artem\\.vscode\\extensions\\redhat.java-1.24.0-win32-x64\\jre\\17.0.8.1-win32-x86_64\\bin\\java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:c:\\Users\\artem\\.vscode\\extensions\\redhat.java-1.24.0-win32-x64\\lombok\\lombok-1.18.30.jar -jar c:\\Users\\artem\\.vscode\\extensions\\redhat.java-1.24.0-win32-x64\\server\\plugins\\org.eclipse.equinox.launcher_1.6.500.v20230717-2134.jar -configuration c:\\Users\\artem\\AppData\\Roaming\\Code\\User\\globalStorage\\redhat.java\\1.24.0\\config_ss_win -data c:\\Users\\artem\\AppData\\Roaming\\Code\\User\\workspaceStorage\\1f96678f7dbcf4749094c73ae085fb0a\\redhat.java\\ss_ws',
+  level: 'info',
+  timestamp: '2023-12-05 21:44:25.477'
+}
+{
+  message: 'Starting Java server with: c:\\Users\\artem\\.vscode\\extensions\\redhat.java-1.24.0-win32-x64\\jre\\17.0.8.1-win32-x86_64\\bin\\java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:c:\\Users\\artem\\.vscode\\extensions\\redhat.java-1.24.0-win32-x64\\lombok\\lombok-1.18.30.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=c:\\Users\\artem\\AppData\\Roaming\\Code\\User\\workspaceStorage\\1f96678f7dbcf4749094c73ae085fb0a\\redhat.java -Daether.dependencyCollector.impl=bf -jar c:\\Users\\artem\\.vscode\\extensions\\redhat.java-1.24.0-win32-x64\\server\\plugins\\org.eclipse.equinox.launcher_1.6.500.v20230717-2134.jar -configuration c:\\Users\\artem\\AppData\\Roaming\\Code\\User\\globalStorage\\redhat.java\\1.24.0\\config_win -data c:\\Users\\artem\\AppData\\Roaming\\Code\\User\\workspaceStorage\\1f96678f7dbcf4749094c73ae085fb0a\\redhat.java\\jdt_ws',
+  level: 'info',
+  timestamp: '2023-12-05 21:44:25.792'
+}
+{
+  message: 'дек. 05, 2023 9:44:29 PM org.apache.aries.spifly.BaseActivator log\r\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\r\n',
+  level: 'info',
+  timestamp: '2023-12-05 21:44:29.655'
+}
+{
+  message: 'дек. 05, 2023 9:44:29 PM org.apache.aries.spifly.BaseActivator log\r\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\r\n',
+  level: 'info',
+  timestamp: '2023-12-05 21:44:29.657'
+}
+{
+  message: '[Error - 21:44:38] 5 дек. 2023 г., 21:44:38 Error occured while building workspace. Details: \r\n' +
+    ' message: The type Data is already defined; code: 0; resource: D:/Univer (labs)/Par prog/LR4/Test2.java;\r\n' +
+    ' message: The type MonitorA is already defined; code: 0; resource: D:/Univer (labs)/Par prog/LR4/Test2.java;\r\n' +
+    ' message: The type MonitorSync is already defined; code: 0; resource: D:/Univer (labs)/Par prog/LR4/Test2.java;\r\n' +
+    ' message: The type MonitorD is already defined; code: 0; resource: D:/Univer (labs)/Par prog/LR4/Test2.java;',
+  level: 'info',
+  timestamp: '2023-12-05 21:44:38.820'
+}
+{
+  message: 'дек. 05, 2023 9:44:38 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\r\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\r\n',
+  level: 'info',
+  timestamp: '2023-12-05 21:44:38.868'
+}

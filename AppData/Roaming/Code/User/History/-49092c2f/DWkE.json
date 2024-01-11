@@ -1,0 +1,98 @@
+{
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "markdown-draw.webview-keybindings": [
+    
+        {
+            "type": "comment",
+            "content": "custom keybindings of webview panel. See https://github.com/zhaouv/vscode-markdown-draw#webview-keybindings for details"
+        },
+        {
+            "key": "ctrl+s",
+            "command": "save inline"
+        },
+        {
+            "key": "ctrl+f",
+            "command": "save to .svg file"
+        },
+        {
+            "key": "ctrl+z",
+            "command": "undo"
+        },
+        {
+            "key": "ctrl+y",
+            "command": "redo"
+        },
+        {
+            "key": "ctrl+l",
+            "command": "Recognize to latex"
+        },
+        {
+            "key": "f2",
+            "command": "line"
+        },
+        {
+            "key": "f4",
+            "command": "pen"
+        },
+        {
+            "key": "f6",
+            "command": "eraser"
+        },
+        {
+            "key": "f7",
+            "command": "rect"
+        },
+        {
+            "key": "f8",
+            "command": "circle"
+        },
+        {
+            "key": "f9",
+            "command": "select"
+        },
+        {
+            "key": "f10",
+            "command": "clear board"
+        }
+    ],
+    "markdown-draw.customized-buttons": [
+        
+        {
+            "type": "comment",
+            "content": "change the type of next object to script to run the demo. See https://github.com/zhaouv/vscode-markdown-draw#customize-buttons for details"
+        },
+        {
+            "type": "script_demo",
+            "function": "    // find a icon from https://fontawesome.com/v5.8.2/icons\n    const icon = 'dice-one' \n    const title = 'a new button'\n    const addGap = false\n    const onclick = ()=>{\n        drawAPI.unstable.setTextContent('a custom button works')\n    }\n\n    document.querySelector('div.svg-operate').insertAdjacentHTML('beforeEnd',(addGap?\"<span class='svgiconspliter'></span>\":\"\")+\"<div class='svg-btn fa fa-\"+icon+\"' title='\"+title+\"'><span></span></div>\");\n    document.querySelector('div.svg-operate > :last-child').onclick=onclick\n",
+            "version": "0.1.2"
+        }
+    ],
+    "wakatime.apiKey": "waka_27ea733d-37ed-4878-ac0c-db646aa39d97",
+    "ngrxUml.input.baseDir": "D:\\Univer (labs)\\IPZ (Kyrsova)",
+    "ngrxUml.input.workspaceFolder": "D:\\Univer (labs)\\IPZ (Kyrsova)",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.tabSize": 2,
+    "files.defaultLanguage": "html",
+    "editor.detectIndentation": false,
+    "editor.folding": false,
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    "editor.renderWhitespace": "boundary",
+    "editor.lineHeight": 22,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.enabled": false,
+		"editor.insertSpaces": false,
+		"editor.linkedEditing": true,
+		"ecsstractor_port.add_comment": false,
+		"ecsstractor_port.empty_line_before_nested_selector": false,
+		"liveServer.settings.donotVerifyTags": true,
+		"workbench.colorTheme": "One Dark Pro"
+}

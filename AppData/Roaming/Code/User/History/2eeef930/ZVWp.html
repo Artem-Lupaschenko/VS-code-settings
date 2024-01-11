@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <script src="/My learn.js"></script>
+
+  <!-- <script>
+    /**
+     * Позиционирует элемент elem относительно элемента anchor в соответствии со значением position.
+     *
+     * @param {Node} anchor     элемент, около которого позиционируется другой элемент
+     * @param {string} position одно из: top/right/bottom
+     * @param {Node} elem       элемент, который позиционируется
+     *
+     * Оба элемента elem и anchor должны присутствовать в документе
+     */
+    function positionAt(anchor, position, elem) {
+      let coords = anchor.getBoundingClientRect();
+      let obj = {
+        "right" : coords.left + coords.width,
+        "bottom" : coords.top + coords.height
+      }
+      console.log(coords[position])
+      position == "right" || position == "bottom" ? elem.style[position] = `${obj[position]}px` : elem.style[position] = `${coords[position]}px`;
+    }
+
+    /**
+     * Показывает заметку с заданным содержимым на заданной позиции
+     * относительно элемента anchor.
+     */
+    function showNote(anchor, position, html) {
+      let note = document.createElement('div');
+      note.className = "note";
+      note.innerHTML = html;
+      document.body.append(note);
+
+      positionAt(anchor, position, note);
+    }
+
+    // test it
+    let blockquote = document.querySelector('blockquote');
+
+    showNote(blockquote, "top", "note above");
+    showNote(blockquote, "right", "note at the right");
+    showNote(blockquote, "bottom", "note below");
+  </script> -->
+
+
+</body>
+</html>

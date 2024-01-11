@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/Lab1.java</name>
+			<type>1</type>
+			<location>d:/Univer (labs)/Par prog/LR1/Lab1.java</location>
+		</link>
+		<link>
+			<name>src/Lab2.java</name>
+			<type>1</type>
+			<location>d:/Univer (labs)/Par prog/LR2/Lab2.java</location>
+		</link>
+		<link>
+			<name>src/Test.java</name>
+			<type>1</type>
+			<location>d:/Univer (labs)/Par prog/Test/Test.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

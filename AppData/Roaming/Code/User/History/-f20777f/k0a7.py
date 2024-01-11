@@ -1,0 +1,77 @@
+import numpy as np
+import pandas as pd
+
+data = pd.read_csv("iris.csv")
+petal = np.array(data["petal_width"])
+
+arr1 = np.array([3, 2, 6, 8, 2, 5], dtype=float)
+arr2 = np.arange(0,16, 1.5)
+arr3 = np.ones((3,3), dtype=float)
+arr4 = np.zeros(7, dtype=bool)
+print("\nГенерація невипадкових масивів різними способами:")
+print(f"arr1 = {arr1}")
+print(format("arr2 = {arr2}"))
+print(format("arr3 = {arr3}"))
+print(format("arr4 = {arr4}"))
+
+randArr1 = np.linspace(0, 5, 10)
+randArr2 = np.random.random(4)
+randArr3 = np.random.randint(0, 20, (5,4))
+randArr4 = np.empty((2, 4))
+print("\nГенерація випадкових масивів різними способами:")
+print("randArr1 = " + randArr1)
+print("randArr2 = " + randArr2)
+print("randArr3 = " + randArr3)
+print("randArr4 = " + randArr4)
+
+elem1 = arr1[3]
+elem2 = arr1[-1]
+elem3 = randArr3[0, 2]
+elem4 = arr1[0:4]
+elem5 = randArr3[0:2, 0:3]
+print("\nЗвернення до елементів масиву за допомогою індексів, виділення підмасивів:")
+print("arr1[3] = " + elem1)
+print("arr1[-1] = " + elem2)
+print("randArr3[0, 2] = " + elem3)
+print("arr1[0:4] = " + elem4)
+print("randArr3[0:2, 0:3] = " + elem5)
+
+operation1 = np.add(arr3, 3)
+operation2 = np.subtract(arr3, 3)
+operation3 = np.multiply(arr3, 3)
+operation4 = np.divide(arr3, 3)
+operation5 = np.power(arr1, 3)
+operation6 = np.mod(arr1, 3)
+operation7 = np.negative(arr3)
+operation8 = np.add.reduce(randArr3, 1)
+operation9 = np.add.accumulate(randArr3, 1)
+operation10 = np.multiply.outer(arr1, arr2)
+print("\nОсновні арифметичні операції над масивами, методи reduce, accumulate, outer:")
+print("arr3 + 3 = " + operation1)
+print("arr3 - 3 = " + operation2)
+print("arr3 * 3 = " + operation3)
+print("arr3 / 3 = " + operation4)
+print("arr1 ** 3 = " + operation5)
+print("arr1 % 3 = " + operation6)
+print("-arr3 = " + operation7)
+print("np.add.reduce(randArr3, 1) = " + operation8)
+print("np.add.accumulate(randArr3, 1) = " + operation9)
+print("np.multiply.outer(arr1, arr2) = " + operation10)
+
+stat1 = np.min(petal)
+stat2 = np.max(petal)
+stat3 = np.mean(petal)
+stat4 = np.std(petal)
+stat5 = np.median(petal)
+stat6 = np.percentile(petal, 25)
+stat7 = np.percentile(petal, 75)
+print("\nВирахунок статистичних характеристик:")
+print("min = " + stat1)
+print("max = " + stat2)
+print("mean = " + stat3)
+print("std = " + stat4)
+print("median = " + stat5)
+print("percentile25 = " + stat6)
+print("percentile75 = " + stat7)
+
+
